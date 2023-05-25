@@ -47,8 +47,7 @@ async function imagesOfFavorites(){
             articuleDog.appendChild(btnDog)
             btnDog.appendChild(btnTextDog)
             sectionCat.appendChild(articuleCat)
-        })
-       
+        }) 
     } else {
         spanError.innerHTML = "Hubo un error de: " + res.status
     }
